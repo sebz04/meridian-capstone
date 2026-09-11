@@ -1,5 +1,5 @@
 ---
-source: raw/clinet_brief.md
+source: raw/clinet_brief.md, raw/icsc-grocery-formats-2026.md
 last-updated: 2026-09-11
 ---
 
@@ -15,6 +15,10 @@ last-updated: 2026-09-11
 - [Loyalty Program](concepts/loyalty-program.md)
 - [Store Performance](concepts/store-performance.md)
 - [Expansion](concepts/expansion.md)
+
+## Industry Research
+
+- [Grocery Market Trends — ICSC 2026](analysis/icsc-grocery-formats-2026.md)
 
 ## Interview Prep
 

@@ -21,3 +21,17 @@ Append-only. One entry per ingest operation. Never delete or edit past entries.
 - `wiki/interview-prep/questions.md`
 - `wiki/interview-prep/briefing.md`
 - `wiki/interview-prep/outcomes.md`
+
+---
+
+## 2026-09-11 — Industry research ingest
+
+**Source:** `raw/icsc-grocery-formats-2026.md`  
+(ICSC Exchange, "New Grocery Formats, Store Growth and Investment Signal Sector in Motion", April 2026)  
+**Pages created:**
+- `wiki/analysis/icsc-grocery-formats-2026.md`
+- `wiki/concepts/expansion.md`
+- `wiki/concepts/store-performance.md`
+- `wiki/concepts/loyalty-program.md`
+**Pages updated:**
+- `wiki/index.md` (added Industry Research category)

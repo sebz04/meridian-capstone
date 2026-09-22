@@ -469,7 +469,7 @@ git commit -m "feat: add interview prep pages — questions, briefing, outcomes"
 
 ---
 
-### Task 5: Create concept stubs
+### Task 5: Create concept stubs [x] complete — see .superpowers/sdd/progress.md
 
 **Files:**
 - Create: `wiki/concepts/loyalty-program.md`

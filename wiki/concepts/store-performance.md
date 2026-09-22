@@ -17,7 +17,7 @@ last-updated: 2026-09-11
 
 **Specialty format is outperforming.** ~3% YoY growth for specialty grocers; traditional chains declining in loyalty, especially among lower-income shoppers; discounters plateauing. Stores that underperform relative to this trend are worth investigating.
 
-**Loyalty is the differentiator.** Consumer Edge: shoppers gravitate to "unbeatable value or a curated private-label experience." Performance variation across Meridian's 14 stores may partly reflect how well each location has built a loyal base — making the 40K-member loyalty dataset a useful diagnostic.
+**Loyalty is the differentiator.** Consumer Edge: shoppers gravitate to "unbeatable value at a hard discounter or a curated private-label experience." Performance variation across Meridian's 14 stores may partly reflect how well each location has built a loyal base — making the 40K-member loyalty dataset a useful diagnostic.
 
 **Differentiation matters more than ever.** JLL: "The days when any grocery store could anchor a center equally well are fading." Slower stores may be underperforming because their local positioning isn't sufficiently distinct.
 

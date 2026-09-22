@@ -5,11 +5,11 @@ last-updated: 2026-09-11
 
 # Meridian Markets
 
-**Type:** Specialty grocery chain
-**Geography:** Los Angeles, Orange, and Ventura counties
-**Stores:** 14 (grew from 6 in five years)
-**Revenue:** ~$78M/year
-**Employees:** ~620
+- **Type:** Specialty grocery chain
+- **Geography:** Los Angeles, Orange, and Ventura counties
+- **Stores:** 14 (grew from 6 in five years)
+- **Revenue:** ~$78M/year
+- **Employees:** ~620
 
 ## Competitive positioning
 
@@ -32,9 +32,15 @@ categories are performing before the next expansion round.
 | Labor scheduling | Hours and schedules |
 | Store attributes | Square footage, opening date, lease terms |
 
-**Data contact:** Marcus (IT) — provides extract once NDA is signed.
-**Data handling rules:** See [`docs/data-handling-checklist.md`](../../docs/data-handling-checklist.md).
+- **Data contact:** Marcus (IT) — provides extract once NDA is signed.
+- **Data handling rules:** See [`docs/data-handling-checklist.md`](../../docs/data-handling-checklist.md).
 
 ## Key people
 
 - [Dana Okafor](dana-okafor.md) — VP of Operations
+
+## Related
+
+- [Loyalty Program](../concepts/loyalty-program.md)
+- [Store Performance](../concepts/store-performance.md)
+- [Expansion](../concepts/expansion.md)

@@ -8,6 +8,9 @@
 
 **Tech Stack:** Markdown (GitHub-flavored), git
 
+**Status:** All 5 tasks complete. See `.superpowers/sdd/progress.md` for
+the full execution ledger (rulings, deferred minors, review verdicts).
+
 ## Global Constraints
 
 - `raw/` files are never modified after being added — read-only
@@ -32,14 +35,14 @@
 
 **How to check:** Run `cat wiki/CLAUDE.md` — verify Ingest, Query, and Lint sections are present. Run `ls wiki/` — verify four subdirectories are listed.
 
-- [ ] **Step 1: Create directory structure**
+- [x] **Step 1: Create directory structure**
 
 ```bash
 mkdir -p wiki/entities wiki/concepts wiki/analysis wiki/interview-prep
 touch wiki/analysis/.gitkeep
 ```
 
-- [ ] **Step 2: Write `wiki/CLAUDE.md`**
+- [x] **Step 2: Write `wiki/CLAUDE.md`**
 
 ```markdown
 # Meridian Markets Research Wiki — Schema
@@ -112,7 +115,7 @@ Triggered on request ("lint the wiki").
 5. Report findings — do not auto-fix without confirmation
 ```
 
-- [ ] **Step 3: Verify**
+- [x] **Step 3: Verify**
 
 ```bash
 cat wiki/CLAUDE.md
@@ -121,7 +124,7 @@ ls wiki/
 
 Expected: CLAUDE.md shows three workflow sections. `ls` shows: `CLAUDE.md  analysis/  concepts/  entities/  interview-prep/`
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add wiki/
@@ -140,7 +143,7 @@ git commit -m "feat: scaffold wiki directory structure and schema"
 
 **How to check:** `cat wiki/index.md` — three categories present, all links listed. `cat wiki/log.md` — one entry with date 2026-09-11, source file, and all pages listed.
 
-- [ ] **Step 1: Write `wiki/index.md`**
+- [x] **Step 1: Write `wiki/index.md`**
 
 ```markdown
 ---
@@ -168,7 +171,7 @@ last-updated: 2026-09-11
 - [Outcomes — What We Must Learn](interview-prep/outcomes.md)
 ```
 
-- [ ] **Step 2: Write `wiki/log.md`**
+- [x] **Step 2: Write `wiki/log.md`**
 
 ```markdown
 ---
@@ -195,7 +198,7 @@ Append-only. One entry per ingest operation. Never delete or edit past entries.
 - `wiki/interview-prep/outcomes.md`
 ```
 
-- [ ] **Step 3: Verify**
+- [x] **Step 3: Verify**
 
 ```bash
 cat wiki/index.md
@@ -204,7 +207,7 @@ cat wiki/log.md
 
 Expected: index shows three categories with seven total links. Log shows one entry dated 2026-09-11 listing eight pages.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add wiki/index.md wiki/log.md
@@ -223,7 +226,7 @@ git commit -m "feat: add wiki index and log seeded from client brief"
 
 **How to check:** `cat wiki/entities/dana-okafor.md` — verify role, communication style, and priorities sections are present. `cat wiki/entities/meridian-markets.md` — verify store count, revenue, data assets table, and checklist link are present.
 
-- [ ] **Step 1: Write `wiki/entities/dana-okafor.md`**
+- [x] **Step 1: Write `wiki/entities/dana-okafor.md`**
 
 ```markdown
 ---
@@ -257,7 +260,7 @@ back up the Pasadena decision before committing. Represents leadership's
 desire for clearer visibility before the next expansion round.
 ```
 
-- [ ] **Step 2: Write `wiki/entities/meridian-markets.md`**
+- [x] **Step 2: Write `wiki/entities/meridian-markets.md`**
 
 ```markdown
 ---
@@ -302,7 +305,7 @@ categories are performing before the next expansion round.
 - [Dana Okafor](dana-okafor.md) — VP of Operations
 ```
 
-- [ ] **Step 3: Verify**
+- [x] **Step 3: Verify**
 
 ```bash
 cat wiki/entities/dana-okafor.md
@@ -311,7 +314,7 @@ cat wiki/entities/meridian-markets.md
 
 Expected: both files show frontmatter, all required sections, and cross-links between them.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add wiki/entities/
@@ -331,7 +334,7 @@ git commit -m "feat: add Dana Okafor and Meridian Markets entity pages"
 
 **How to check:** Read each file — no placeholder text, all content drawn from the brief. Check that each file links to the other two.
 
-- [ ] **Step 1: Write `wiki/interview-prep/questions.md`**
+- [x] **Step 1: Write `wiki/interview-prep/questions.md`**
 
 ```markdown
 ---
@@ -370,7 +373,7 @@ Use alongside [briefing.md](briefing.md) and [outcomes.md](outcomes.md).
 - What is the timeline for the expansion decision, and who makes the final call?
 ```
 
-- [ ] **Step 2: Write `wiki/interview-prep/briefing.md`**
+- [x] **Step 2: Write `wiki/interview-prep/briefing.md`**
 
 ```markdown
 ---
@@ -413,7 +416,7 @@ and [outcomes.md](outcomes.md).
 - Understand the data quality landscape before the extract arrives from Marcus
 ```
 
-- [ ] **Step 3: Write `wiki/interview-prep/outcomes.md`**
+- [x] **Step 3: Write `wiki/interview-prep/outcomes.md`**
 
 ```markdown
 ---
@@ -450,7 +453,7 @@ Use alongside [questions.md](questions.md) and [briefing.md](briefing.md).
 - [ ] What does "prepared foods" and "local sourcing" mean in the POS — is it a category?
 ```
 
-- [ ] **Step 4: Verify**
+- [x] **Step 4: Verify**
 
 ```bash
 cat wiki/interview-prep/questions.md
@@ -460,7 +463,7 @@ cat wiki/interview-prep/outcomes.md
 
 Expected: all three files contain seeded content with no placeholder text, and each links to the other two.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add wiki/interview-prep/
@@ -469,7 +472,7 @@ git commit -m "feat: add interview prep pages — questions, briefing, outcomes"
 
 ---
 
-### Task 5: Create concept stubs [x] complete — see .superpowers/sdd/progress.md
+### Task 5: Create concept stubs
 
 **Files:**
 - Create: `wiki/concepts/loyalty-program.md`
@@ -480,7 +483,7 @@ git commit -m "feat: add interview prep pages — questions, briefing, outcomes"
 
 **How to check:** `ls wiki/concepts/` shows three files. `cat` each — verify frontmatter is present, "Status: Stub" line is there, and at least two cross-links exist per file.
 
-- [ ] **Step 1: Write `wiki/concepts/loyalty-program.md`**
+- [x] **Step 1: Write `wiki/concepts/loyalty-program.md`**
 
 ```markdown
 ---
@@ -512,7 +515,7 @@ last-updated: 2026-09-11
 - [Store Performance](store-performance.md)
 ```
 
-- [ ] **Step 2: Write `wiki/concepts/store-performance.md`**
+- [x] **Step 2: Write `wiki/concepts/store-performance.md`**
 
 ```markdown
 ---
@@ -544,7 +547,7 @@ last-updated: 2026-09-11
 - [Loyalty Program](loyalty-program.md)
 ```
 
-- [ ] **Step 3: Write `wiki/concepts/expansion.md`**
+- [x] **Step 3: Write `wiki/concepts/expansion.md`**
 
 ```markdown
 ---
@@ -577,7 +580,7 @@ last-updated: 2026-09-11
 - [Dana Okafor](../entities/dana-okafor.md)
 ```
 
-- [ ] **Step 4: Verify**
+- [x] **Step 4: Verify**
 
 ```bash
 ls wiki/concepts/
@@ -586,7 +589,7 @@ cat wiki/concepts/expansion.md
 
 Expected: three files listed. `expansion.md` shows frontmatter, Status line, Known section, Open questions, and three cross-links.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add wiki/concepts/

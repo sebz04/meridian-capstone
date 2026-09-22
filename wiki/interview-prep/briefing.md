@@ -36,3 +36,8 @@ and [outcomes.md](outcomes.md).
 - Understand what "success" means concretely to Dana and to leadership
 - Get clarity on the Pasadena hypothesis — what is the evidence for it?
 - Understand the data quality landscape before the extract arrives from Marcus
+
+## Related
+
+- [Meridian Markets](../entities/meridian-markets.md)
+- [Dana Okafor](../entities/dana-okafor.md)

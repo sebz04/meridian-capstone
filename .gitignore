@@ -1,0 +1,6 @@
+# Restricted client data extracts — never commit (see docs/data-handling-checklist.md)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+raw/extract/

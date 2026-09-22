@@ -1,6 +1,6 @@
 ---
-source: raw/clinet_brief.md, raw/icsc-grocery-formats-2026.md
-last-updated: 2026-09-11
+source: raw/clinet_brief.md, raw/icsc-grocery-formats-2026.md, raw/jll-grocery-tracker-2026.md, raw/hoodline-bristol-farms-2026.md
+last-updated: 2026-09-22
 ---
 
 # Research Wiki Index
@@ -19,6 +19,9 @@ last-updated: 2026-09-11
 ## Industry Research
 
 - [Grocery Market Trends — ICSC 2026](analysis/icsc-grocery-formats-2026.md)
+- [Grocery Tracker 2026 — JLL](analysis/jll-grocery-tracker-2026.md)
+- [Bristol Farms vs. Erewhon — Hoodline 2026](analysis/hoodline-bristol-farms-2026.md)
+- [Where Specialty Grocers Are Opening](analysis/specialty-grocer-geography.md)
 
 ## Interview Prep
 
